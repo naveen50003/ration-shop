@@ -1,0 +1,30 @@
+<html>
+    <head></head>
+    <body></body>
+    <script>
+        var empObj = [
+            {"name": "Navaneeth","city":"hyd"},
+            {"name": "Raghu","city":"rjy"},
+            {"name": "Dasta","city":"rjy"},
+            {"name": "Harsha","city":"hyd"}
+        ]
+        var temp ={};
+        empObj.forEach((item,index)=>{
+            if(temp[item.city]!== undefined){
+                temp[item.city].push(item.name);
+            }else{
+                temp[item.city] = [];
+                temp[item.city].push(item.name);
+            }
+        })
+        empObj.reduce((total,item)=>{
+            if(total[item.city] !== undefined){
+                var temp = total[item.city];
+                temp.push(item.name)
+                return {...total,[item.city] : temp}
+            }
+            return {...total,[item.city] : [item.name]}
+        },{})
+
+    </script>
+</html>

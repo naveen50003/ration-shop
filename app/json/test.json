@@ -1,0 +1,21 @@
+[{
+    "name" : "Ethan",
+    "experience" : 10,
+    "skills" : ["C","C++","JAVA","J2EE"],
+    "preferedLoc" : ["Hyderabad","Bangalore","Chennai"],
+    "currentLoc" : ["Hyderabad"]
+},
+{
+    "name" : "Mathews",
+    "experience" : 5,
+    "skills" : ["Angular","React","Java","J2EE"],
+    "preferedLoc" : ["Noida","Delhi","Pune"],
+    "currentLoc" : ["Nodia"]
+},
+{
+    "name" : "Nate Fuller",
+    "experience" : 15,
+    "skills" : ["Scala","Java","J2EE"],
+    "preferedLoc" : ["Hyderabad","Bangalore","Chennai"],
+    "currentLoc" : ["Chennai"]
+}]

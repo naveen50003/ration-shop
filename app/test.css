@@ -1,0 +1,23 @@
+.txtarea{
+    max-width:100%;
+    min-height:200px;    
+    display:block;
+    width:100%;
+}
+
+.mydiv{
+    padding:10px;
+}
+
+.gen_btn{
+    padding:5px;
+    background-color:#743ED9;
+    color:white;
+    font-family:arial;
+    font-size:13px;
+    border:2px solid black;
+}
+
+.gen_btn:hover{
+    background-color:#9a64ff;
+}
